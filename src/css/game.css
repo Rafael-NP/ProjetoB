@@ -15,11 +15,12 @@ body{
     min-height: 100vh;
 }
 header{
-    background: #1f2937;
+    background: #520606;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    box-shadow: 0 0 7px #9e0000;
 }
 header nav ul{
     list-style: none;
@@ -35,7 +36,7 @@ header nav ul li a{
 }
 header nav a:hover{
     border-radius: 20px;
-    text-decoration: underline 3px #bdbdbd;
+    text-decoration: underline 2px #bdbdbd;
 }
 #conteudo{
     display: grid;
@@ -54,7 +55,7 @@ h1{
     margin-top: 50px;
 } 
 p{
-    background-image: linear-gradient(to right, bisque, yellow);
+    background-image: linear-gradient(to right, bisque, crimson);
     font-size: 30px;
     text-align: center;
     -webkit-text-fill-color: transparent;
