@@ -7,7 +7,7 @@
 }
 body{
     background: #000;
-    font-family: "Roboto", sans-serif;
+    font-family: "Ancizar Serif", serif;
 }
 #container{
     display: flex;
@@ -15,7 +15,7 @@ body{
     min-height: 100vh;
 }
 header{
-    background: #a10000;
+    background: #1f2937;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -29,14 +29,13 @@ header nav ul{
     gap: 10px;
 }
 header nav ul li a{
-    color: #fff;
+    color: #bdbdbd;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 header nav a:hover{
-    color: #fff;
     border-radius: 20px;
-    text-decoration: underline 3px crimson;
+    text-decoration: underline 3px #bdbdbd;
 }
 #conteudo{
     display: grid;
@@ -55,7 +54,7 @@ h1{
     margin-top: 50px;
 } 
 p{
-    background-image: linear-gradient(to right, crimson, bisque);
+    background-image: linear-gradient(to right, bisque, yellow);
     font-size: 30px;
     text-align: center;
     -webkit-text-fill-color: transparent;

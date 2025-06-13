@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 body{
-    background: #f4f4f4;
-    font-family: "Roboto", sans-serif;
+    background: #e6e6e6;
+    font-family: "Ancizar Serif", serif;
 }
 /* DEIXANDO FLEXÍVEL */
 #container{
@@ -16,12 +16,12 @@ body{
     min-height: 100vh;
 }
 header{
-    background: #a10000;
+    background: #1f2937;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 4px #000;
 }
 header nav ul{
     list-style: none;
@@ -31,14 +31,14 @@ header nav ul{
     gap: 10px;
 }
 header nav ul li a{
-    color: #fff;
+    color: #bdbdbd;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 header nav a:hover{
-    color: #ffe6bf;
+    color: #bdbdbd;
     border-radius: 20px;
-    text-decoration: underline 3px #ff7b5a;
+    text-decoration: underline 3px #bdbdbd;
 }
 #conteudo{
     display: grid;
@@ -55,10 +55,11 @@ main{
     height: 400px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #969696;
+    border: 1px solid #1f2937;
     border-radius: 20px;
-    background: #b8b8b8;
+    background: #fff;
     box-shadow: 5px 5px 5px #a8a8a8;
+    transition: 0.4s;
 }
 /* AUMENTA O TAMANHO AO PASSAR O MOUSE */
 .produto:hover{
@@ -74,29 +75,29 @@ main{
     font-weight: 700;
     margin-top: 10px;
     text-align: center;
-    color: #161515;
+    color: #1f2937;
     font-size: 1.7rem;
 }
 button{
-    background: #4d4d4d;
+    background: #1f2937;
     margin-top: 15px;
     margin-left: 10px;
     padding: 15px 45px;
     border-radius: 20px;
     cursor: pointer;
-    color: #ffadad;
+    color: #fff;
 }
 button:hover{
-    background-image: linear-gradient(#4d4d4d,black);
+    background-image: linear-gradient(#1f2937,black);
 }
 aside{
     width: 220px;
     padding: 10px;
-    background: #c4c4c4;
+    background: #f3f4f6;
     box-shadow: 0 0 5px #000;
 }
 aside h2{
-    color: crimson;
+    color: #02000e;
     margin-left: 40px;
     text-shadow: 0 0 1px #000;
 }
@@ -105,16 +106,16 @@ aside ul{
 }
 aside ul li a{
     text-decoration: none;
-    color: #4e0000;
+    color: #03000f;
 }
 aside ul li a:hover{
-    text-decoration: underline 2px #330000;
+    text-decoration: underline 1px #03000f;
 }
 footer{
-    background: #202020;
-    color:#ffffff;
+    background: #19243a;
+    color:#fff;
     padding: 20px 0;
-    margin-top:  auto;
+    margin-top: auto;
 }
 .footer-content{
     display: flex;
@@ -132,13 +133,13 @@ footer{
     margin-bottom: 5px;
 }
 .footer-content a{
-    color: #ffb4b4;
     text-decoration: none;
     cursor: pointer;
+    color: #a6b6e0;
 }
 .footer-content a:hover{
-    color: #ff5d5d;
-    text-decoration: underline 2px #ff5d5d;
+    color: #fff;
+    text-decoration: underline 2px #fff;
 }
 footer p{
     justify-content: end;
@@ -158,7 +159,11 @@ footer p{
         text-align: center;
         border-radius: 40px;
         font-size: 1.3rem;
-        background-image: linear-gradient(#610000,black);
+        transition: 0.4s;
+        background-image: linear-gradient(#0b1c33,black);
+    }
+    header li:hover{
+        transform: scale(1.04);
     }
     header nav ul li a{
         display: flex;
