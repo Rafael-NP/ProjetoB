@@ -70,6 +70,7 @@ main{
     height: 150px;
     margin-top: 10px;
     border-radius: 20px;
+    box-shadow: 0 0 2px #000;
 }
 .preco{
     font-weight: 700;
